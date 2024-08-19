@@ -1,7 +1,7 @@
 import sys; print(sys.version)
 import streamlit as st
 import pandas as pd
-import yfinance as yf
+import pandas-datareader as yf
 import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
 from matplotlib import gridspec
