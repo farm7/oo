@@ -8,7 +8,7 @@ import matplotlib.dates as mdates
 from matplotlib import gridspec
 
 # Set the title of the app
-st.title('OO Swing Calls')
+st.title('OO Stock Analyzer (For Calls 90-180 DTE)')
 
 # Create an input field for the user to enter the stock symbol
 stock_symbol = st.text_input("Enter a stock symbol", "AAPL")
